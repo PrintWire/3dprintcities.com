@@ -1,9 +1,17 @@
 baseURL = "https://3dprintcities.com/"
 languageCode = "en-us"
 title = "3D Print Cities"
-theme = "printwire"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Cities"
 tagline       = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
 description   = "3D Print Cities covers the future of urban construction — large-format concrete printing for housing, smart city infrastructure, and the automation of the built environment."
 keywords      = "3D print cities, urban construction printing, smart city AM, printed housing, large format concrete printing, construction automation"
