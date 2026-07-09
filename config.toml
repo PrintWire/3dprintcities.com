@@ -11,6 +11,7 @@ title = "3D Print Cities"
       unsafe = true
 
 [params]
+ogImage       = "/images/05_facade_gradient.png"
 siteName      = "3D Print Cities"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">CITIES</span>'
 tagline       = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
